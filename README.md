@@ -85,11 +85,11 @@ remove_background("eingabe.pdf", "ausgabe.pdf", threshold=200)
 pip install PyMuPDF
 ```
 
-**"Memory Error bei großen PDFs"**
+**Memory Error bei großen PDFs**
 - Reduzieren Sie die DPI-Einstellung in der Matrix-Definition
 - Verarbeiten Sie große Dateien seitenweise
 
-**"Hintergrund wird nicht vollständig entfernt"**
+**Hintergrund wird nicht vollständig entfernt**
 - Experimentieren Sie mit verschiedenen Schwellenwerten
 - Für dunklere Hintergründe: niedrigerer Schwellenwert (180-200)
 - Für hellere Hintergründe: höherer Schwellenwert (230-250)
@@ -116,4 +116,4 @@ Erstellt mit ❤️ für eine bessere PDF-Bearbeitung
 
 - [PyMuPDF](https://pymupdf.readthedocs.io/) für PDF-Verarbeitung
 - [NumPy](https://numpy.org/) für effiziente Array-Operationen
-- [Pillow](https://pillow.readthedocs.io/) für Bildverarbeitung 
+- [Pillow](https://pillow.readthedocs.io/) für Bildverarbeitung
